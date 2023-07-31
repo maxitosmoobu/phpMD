@@ -20,4 +20,4 @@ jobs:
           coverage: none
           tools: phpmd
       - name: Run PHPMD
-        run: phpmd src/ github codesize,unusedcode,naming --exclude 'vendor/*'
+        run: phpmd src/ github phpmd.ruleset.xml --exclude 'vendor/*'
