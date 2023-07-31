@@ -1,0 +1,25 @@
+{
+  "name": "maxitosmoobu/php-md",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/maxitosmoobu/phpMD",
+  "description": "Example PHPMD",
+  "keywords": ["code coverage", "coverage reports"],
+  "authors": [
+    {
+      "name": "phpMD",
+      "email": "maximiliano@smoobu.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable"
+  },
+  "autoload": {
+    "files": [
+      "src/calculator/BasicCalculator.php"
+    ]
+  }
+}
